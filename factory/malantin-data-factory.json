@@ -1,0 +1,9 @@
+{
+	"name": "malantin-data-factory",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ff507bb2-6d9a-4aa8-805f-1407d3fcf05c",
+		"tenantId": "a3daa967-fdf9-418b-90ed-138a8ce08a7d"
+	}
+}
