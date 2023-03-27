@@ -19,7 +19,7 @@ jobs:
         with:
           organization: ${{ github.event.organization.login }}
           repository: ${{ github.event.repository.name }}
-          discussionId: ${{github.event.discussion.id }}
+          discussionId: ${{github.event.discussion.number }}
           body: |
             This is a multi-line test comment for the 'Bug' label
             - With GitHub **Markdown** :sparkles:
