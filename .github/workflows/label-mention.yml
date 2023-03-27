@@ -17,7 +17,7 @@ jobs:
         uses: shield-wall/comments@main
         if: github.event.label.name == 'bug'
         with:
-          organization: ${{ github.event.discussion.name }}
+          organization: ${{ github.event.organization.name }}
           repository: ${{ github.event.repository.name }}
           discussionId: ${{github.event.discussion.id }}
           body: |
