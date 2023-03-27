@@ -1,7 +1,7 @@
 name: Mention team for label
 on:
   discussion:
-    types: [labled]
+    types: [labeled]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
