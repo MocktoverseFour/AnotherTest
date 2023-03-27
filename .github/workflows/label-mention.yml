@@ -17,9 +17,9 @@ jobs:
         uses: shield-wall/comments@main
         if: github.event.label.name == 'bug'
         with:
-          organization: github.event.discussion.name
-          repository: github.event.repository.name
-          discussionId: github.event.discussion.id
+          organization: ${{ github.event.discussion.name }}
+          repository: ${{ github.event.repository.name }}
+          discussionId: ${{github.event.discussion.id }}
           body: |
             This is a multi-line test comment for the 'Bug' label
             - With GitHub **Markdown** :sparkles:
